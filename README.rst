@@ -9,5 +9,5 @@ Warning: This is a bit of a quick hack. Use at your own peril.
 Example
 -------
 
-`hitnrun -- -j8` will run the command ``scons --silent --tree=all -j8``,
+``hitnrun -- -j8`` will run the command ``scons --silent --tree=all -j8``,
 rerunning it if any dependencies in the tree change.
