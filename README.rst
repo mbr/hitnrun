@@ -4,7 +4,14 @@ SCons Hit 'n Run
 Runs `SCons <http://scons.org>`_, parses its ``--tree=all`` output and reruns the
 build if any of the dependencies change.
 
-Warning: This is a bit of a quick hack. Use at your own peril.
+Installation
+------------
+
+Easily installed from PyPI::
+
+  pip install hitnrun
+
+...and you're done!
 
 Example
 -------
