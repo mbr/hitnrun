@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name='hitnrun',
-    version='0.2',
+    version='0.3dev',
     description='Rerun scons on changed build dependencies.',
     long_description=read('README.rst'),
     author='Marc Brinkmann',
