@@ -12,7 +12,7 @@ def read(fname):
 
 setup(
     name='hitnrun',
-    version='0.3dev',
+    version='0.3.1dev',
     description='Rerun scons on changed build dependencies.',
     long_description=read('README.rst'),
     author='Marc Brinkmann',
@@ -20,6 +20,7 @@ setup(
     url='http://github.com/mbr/hitnrun',
     license='MIT',
     install_requires=['watchdog', 'logbook'],
+    packages=find_packages(exclude=['test']),
     entry_points={
         'console_scripts': [
             'hitnrun = hitnrun:main',
